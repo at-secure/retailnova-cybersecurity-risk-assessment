@@ -1,166 +1,106 @@
 # RetailNova Cybersecurity Risk Assessment
 ## Overview
 
-This project presents a simulated cybersecurity risk assessment for **RetailNova Pty Ltd**, a retail organization headquartered in Melbourne, Australia.
+This project presents a simulated cybersecurity risk assessment for RetailNova Pty Ltd, a retail organization headquartered in Melbourne, Australia.
 
-The assessment evaluates the organization's key assets, associated threats, vulnerabilities, existing security controls, and potential business risks.
+The assessment evaluates the organization's key assets, associated threats, potential vulnerabilities, existing security controls, and cybersecurity risks.
 
-The scenario includes a custom e-commerce platform, mobile application, cloud-connected point-of-sale systems, Salesforce, SAP, AWS infrastructure, VPN access, BYOD devices, and third-party services.
+The scenario includes:
 
-> **Disclaimer:** This is a simulated cybersecurity case study created for educational and portfolio purposes. No real organization, credentials, or production systems were involved.
-
----
-
-## Organization Profile
-
-**Organization:** RetailNova Pty Ltd
-**Industry:** Retail
-**Headquarters:** Melbourne, Australia
-**Employees:** Approximately 1,200
-**Annual Revenue:** Approximately AUD $450 million
-**Stores:** 85 nationwide
-
-### Technology Environment
-
-- Custom-built e-commerce website
+- Custom-built e-commerce platform
 - Mobile application
-- PayPal and Afterpay payment integrations
-- Cloud-connected Point-of-Sale (POS) systems
+- Cloud-connected point-of-sale (POS) systems
 - Salesforce CRM
 - SAP ERP
 - AWS cloud infrastructure
-- Third-party logistics, marketing and loyalty services
-- Role-Based Access Control (RBAC)
-- VPN for remote access
-- Bring Your Own Device (BYOD) policy
-- Microsoft Teams and Slack
+- VPN remote access
+- BYOD devices
+- Third-party services
+- Customer and payment-related data
 
----
+## Organization Profile
 
-## Data Assets
+RetailNova Pty Ltd is a simulated retail organization with approximately 1,200 employees and 85 stores across Australia.
 
-RetailNova stores and processes several categories of sensitive information, including:
+The organization operates physical retail stores and an e-commerce platform selling consumer electronics, home appliances, and lifestyle products.
 
-- Customer names
-- Email addresses
-- Phone numbers
-- Physical addresses
-- Tokenized payment details
-- Purchase history
-- Behavioral analytics
-- Loyalty program information
-- Employee and enterprise information
+Its technology environment includes AWS, Salesforce, SAP, cloud-connected POS systems, VPN access, Microsoft Teams, Slack, and third-party services.
 
----
+## Assessment Scope
 
-## Previous Security Incidents
+The assessment focuses on:
 
-The scenario identifies several previous cybersecurity incidents:
-
-| Year | Incident | Impact |
-|---|---|---|
-| 2023 | Phishing attack targeting customer service representatives | Credential compromise |
-| 2024 | Ransomware attempt | Blocked by endpoint protection; approximately two hours of downtime |
-| 2025 | Third-party marketing vendor data leak | Email addresses of approximately 5,000 customers exposed |
-
----
-
-## Threat and Vulnerability Assessment
-
-The assessment identifies key assets and evaluates:
-
-- Associated threats
-- Potential vulnerabilities
+- Asset identification
+- Threat identification
+- Vulnerability identification
 - Existing security controls
-- Risk likelihood
-- Business consequences
-- Inherent risk
-- Residual risk
-- Risk mitigation strategies
+- Inherent risk analysis
+- Residual risk analysis
+- Risk treatment
+- Risk mitigation
+- Risk monitoring and review
 
-### Key Risk Areas
+## Key Security Risks
 
-The assessment focuses on risks associated with:
+The assessment considers risks including:
 
-1. Phishing and credential compromise
-2. Ransomware and malware
-3. Customer data exposure
-4. Third-party service risk
-5. Remote access and VPN
-6. BYOD environments
-7. Cloud infrastructure
-8. Access control and privilege management
+- Phishing and credential compromise
+- Ransomware
+- Customer data exposure
+- Third-party vendor risk
+- Cloud security risks
+- BYOD security risks
+- Remote access and VPN risks
+- Privilege and access-control risks
 
----
+## Security Controls Considered
 
-## Existing Security Controls
+Existing controls identified in the scenario include:
 
-The scenario identifies existing controls including:
-
-- Basic security awareness training
 - Role-Based Access Control (RBAC)
 - VPN for remote access
 - Firewalls
 - Antivirus / endpoint protection
+- Basic security awareness training
+- Cloud infrastructure security controls
 
-The assessment evaluates these controls and identifies opportunities for strengthening the organization's security posture.
+## Risk Assessment Approach
 
----
+Each identified risk was evaluated using:
 
-## Risk Assessment Methodology
+**Likelihood × Consequence = Risk Rating**
 
-Each identified risk is assessed using the following criteria:
+The assessment considers both:
 
-- **Risk Description** — What could go wrong and why it matters
-- **Assets at Risk** — Systems, information or services affected
-- **Threat** — The actor, event or action that could cause harm
-- **Vulnerability** — The weakness that enables the threat
-- **Existing Controls** — Current safeguards
-- **Likelihood** — Probability of the risk occurring
-- **Consequence** — Potential business impact
-- **Inherent Risk Rating** — Risk before additional mitigation
-- **Residual Risk Rating** — Remaining risk after mitigation
-- **Risk Treatment** — How the risk should be managed
-- **Risk Monitoring and Review** — How the risk should be monitored
-- **Risk Owner** — Responsible party for managing the risk
+- **Inherent Risk** — risk before additional mitigation
+- **Residual Risk** — remaining risk after considering existing controls and proposed mitigations
 
----
+## Risk Treatment
 
-## Security Recommendations
+Recommended mitigation measures include strengthening:
 
-Potential security improvements considered in the assessment include:
-
-- Strengthening security awareness and phishing resistance
-- Implementing Multi-Factor Authentication (MFA)
-- Improving endpoint protection
-- Strengthening network segmentation
-- Centralized security monitoring and logging
-- Reviewing third-party security controls
-- Strengthening access control and privilege management
-- Improving incident response and recovery processes
-- Regularly reviewing VPN and remote-access security
-- Strengthening controls around BYOD devices
-
----
+- Multi-Factor Authentication (MFA)
+- Security awareness and phishing training
+- Network segmentation
+- Centralized security monitoring
+- Endpoint protection
+- Third-party security controls
+- Access-control reviews
+- Cloud security monitoring
 
 ## Skills Demonstrated
-
-This project demonstrates practical knowledge of:
 
 - Cybersecurity risk assessment
 - Threat identification
 - Vulnerability identification
 - Asset identification
 - Risk analysis
-- Likelihood and consequence assessment
-- Inherent and residual risk
-- Security controls
-- Risk mitigation
-- Incident analysis
-- Security recommendations
-- Business impact analysis
-
----
+- Risk treatment
+- Security controls assessment
+- Access control concepts
+- Cloud security concepts
+- Third-party risk assessment
+- Security documentation
 
 ## Project Deliverable
 
@@ -168,10 +108,6 @@ The detailed assessment is available in:
 
 **[Assessment Report.docx](./Assessment%20Report.docx)**
 
-The document contains the completed risk assessment and supporting analysis.
-
----
-
 ## Disclaimer
 
-This project is entirely simulated and was created for educational and cybersecurity portfolio purposes. RetailNova Pvt  Ltd is a fictional organisation, and no real credentials, systems or production environment were involved.
+This is a simulated cybersecurity case study created for educational and portfolio purposes. RetailNova Pty Ltd is a fictional organization, and no real credentials, systems, or production environments were involved.
